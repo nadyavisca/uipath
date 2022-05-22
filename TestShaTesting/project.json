@@ -1,10 +1,11 @@
 {
-  "name": "TestAduanKonten",
+  "name": "TestShaTesting",
   "description": "Blank Process",
-  "main": "Main.xaml",
+  "main": "TestingShaTestCase.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.12.3]",
     "UiPath.Mail.Activities": "[1.15.1]",
+    "UiPath.PDF.Activities": "[3.6.0]",
     "UiPath.System.Activities": "[22.4.1]",
     "UiPath.Testing.Activities": "[22.4.2]",
     "UiPath.UIAutomation.Activities": "[22.4.4]"
@@ -13,7 +14,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "22.4.1.0",
-  "projectVersion": "1.0.0",
+  "projectVersion": "1.0.3",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -40,14 +41,22 @@
     "processOptions": {
       "ignoredFiles": []
     },
-    "fileInfoCollection": [],
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "734c441d-cb91-4709-b7cf-4e7d0dcdd057",
+        "dataVariationFilePath": ".variations\\Results (1)_Sheet1.json",
+        "testCaseType": "TestCase",
+        "fileName": "TestCase.xaml"
+      }
+    ],
     "modernBehavior": false
   },
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
     {
-      "filePath": "Main.xaml",
-      "uniqueId": "af0a9dd9-4510-47ef-9614-1630438c8f85",
+      "filePath": "TestingShaTestCase.xaml",
+      "uniqueId": "b5735862-01b5-4b4e-be22-6ed3b22f1b2d",
       "input": [],
       "output": []
     }
